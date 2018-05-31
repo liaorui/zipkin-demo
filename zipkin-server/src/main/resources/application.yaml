@@ -9,8 +9,7 @@ zipkin:
     StorageComponent: elasticsearch
     type: elasticsearch
     elasticsearch:
-      hosts: 10.95.134.84:9300
-      #hosts: localhost:9300
+      hosts: localhost:9300
       index: zipkin
 
   collector:

@@ -61,7 +61,7 @@ bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic zipkin
 
 查看ES中的trace数据：
 ```
-curl http://10.95.134.84:9200/zipkin:span-2018-05-29/_search
+curl http://localhost:9200/zipkin:span-2018-05-29/_search
 ```
 
 
@@ -99,5 +99,5 @@ logback.xml中配置:
 
 在ES中查看index为zipkin-demo-%{+YYYYMMdd}的日志：
 ```
-curl http://10.95.134.84:9200/zipkin-demo-20180529/_search
+curl http://localhost:9200/zipkin-demo-20180529/_search
 ```
