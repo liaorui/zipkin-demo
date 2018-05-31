@@ -90,10 +90,10 @@ backend模块的pom.xml中引入
 
 logback.xml中配置:
 ```
-&lt;appender name="LOGSTASH" class="net.logstash.logback.appender.LogstashTcpSocketAppender"&gt;
-    &lt;destination&gt;127.0.0.1:9250&lt;/destination&gt;
-    &lt;encoder charset="UTF-8" class="net.logstash.logback.encoder.LogstashEncoder" /&gt;
-&lt;/appender&gt;
+<appender name="LOGSTASH" class="net.logstash.logback.appender.LogstashTcpSocketAppender">
+    <destination>127.0.0.1:9250</destination>
+    <encoder charset="UTF-8" class="net.logstash.logback.encoder.LogstashEncoder" />
+</appender>
 ```
 
 
