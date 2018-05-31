@@ -1,0 +1,20 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: frontend
+  zipkin:
+    base-url: http://localhost:9411
+    kafka:
+      topic: zipkin
+  sleuth:
+    sampler:
+      percentage: 1.0
+  kafka:
+    bootstrap-servers: localhost:9092
+
+feign:
+  hystrix:
+    enabled: true
+

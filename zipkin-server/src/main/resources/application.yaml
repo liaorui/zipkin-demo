@@ -1,0 +1,25 @@
+server:
+  port: 9411
+spring:
+  application:
+    name: zipkin-server
+
+zipkin:
+  storage:
+    StorageComponent: elasticsearch
+    type: elasticsearch
+    elasticsearch:
+      hosts: 10.95.134.84:9300
+      #hosts: localhost:9300
+      index: zipkin
+
+  collector:
+   #rabbitmq:
+      #addresses: localhost:5672
+      ##password: guest
+      ##username: guest
+      #queue: zipkin
+    kafka:
+      zookeeper: localhost:2181
+      topic: zipkin
+      groupId: zipkin
