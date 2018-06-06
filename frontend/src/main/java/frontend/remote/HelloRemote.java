@@ -1,4 +1,4 @@
-package com.es360.ngsoc.remote;
+package frontend.remote;
 
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;

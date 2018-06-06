@@ -1,4 +1,4 @@
-package com.es360.ngsoc.remote;
+package frontend.remote;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestParam;

@@ -1,6 +1,5 @@
-package com.es360.ngsoc.controller;
+package backend.controller;
 
-import com.oracle.tools.packager.Log;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.bind.annotation.RequestMapping;

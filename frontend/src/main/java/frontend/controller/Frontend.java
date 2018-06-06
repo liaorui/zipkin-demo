@@ -1,6 +1,6 @@
-package com.es360.ngsoc.controller;
+package frontend.controller;
 
-import com.es360.ngsoc.remote.HelloRemote;
+import frontend.remote.HelloRemote;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
